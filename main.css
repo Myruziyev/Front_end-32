@@ -1,0 +1,339 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+  list-style: none;
+  user-select: none;
+  font-family: "Inter", sans-serif;
+}
+header {
+  background-image: url(./images/slider2\ 1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50vh;
+  display: flex;
+  padding-top: 25px;
+  flex-direction: column;
+}
+.c1 {
+  display: flex;
+  margin: 0 auto;
+  width: 95%;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+}
+.a1 {
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33.89px;
+  color: white;
+  transition: 1s;
+}
+.a1:hover {
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33.89px;
+  color: #76b900;
+  transition: 1s;
+}
+#i1 {
+  color: #666666;
+  position: absolute;
+  left: 1470px;
+  top: 50px;
+  transition: 1s;
+}
+#i1:hover {
+  color: #76b900;
+  position: absolute;
+  left: 1470px;
+  top: 50px;
+  transition: 1s;
+}
+.input {
+  width: 300px;
+  height: 50px;
+}
+.input input {
+  padding: 16px 55px 16px 14px;
+  position: relative;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+  color: #666666;
+}
+.ul1 {
+  display: flex;
+  column-gap: 40px;
+}
+.ul1 li {
+  color: white;
+  transition: 1s;
+}
+.ul1 li:hover {
+  color: #76b900;
+  transition: 1s;
+}
+.c2 {
+  margin: 0 auto;
+  width: 95%;
+  margin-top: 30px;
+}
+.p {
+  width: 373.7px;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 80px;
+  padding-bottom: 30px;
+}
+.p p {
+  font-family: "Inter", sans-serif;
+  font-size: 40.5px;
+  font-weight: 600;
+  line-height: 48.41px;
+  color: white;
+}
+.button {
+  width: 109px;
+  height: 55px;
+}
+.button button {
+  padding: 18px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  color: #050505;
+  background-color: #76b900;
+  transition: 1s;
+  border: none;
+}
+.button button:hover {
+  padding: 18px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  background-color: #050505;
+  color: #76b900;
+  transition: 1s;
+  border: none;
+}
+.grid {
+  display: grid;
+  grid-gap: 40px;
+  height: 100vh;
+  grid-template-areas:
+    "text text text text"
+    "card1 card2 card3 card4"
+    "text1 text1 text1 text1"
+    "card5 card6 card7 card8"
+    "text2 text2 text2 text2"
+    "card9 card10 card11 card12"
+    "img1 img1 text3 text3"
+    "footer footer footer footer";
+  margin-top: 40px;
+  margin: 0 auto;
+  width: 95%;
+}
+.text {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58.09px;
+  color: #050505;
+  text-align: center;
+  grid-area: text;
+  padding-top: 41px;
+}
+.card1 {
+  grid-area: card1;
+  box-shadow: 10px 17px 27px -4px #00000040;
+  width: 290px;
+  height: 302px;
+}
+.p1 {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.78px;
+  color: #050505;
+  width: 178px;
+  height: 44px;
+  margin-left: 56px;
+  margin-top: 20.63px;
+}
+.p2 {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  transition: 1s;
+  color: #000000;
+  text-align: center;
+  margin-top: 37px;
+}
+.p2:hover {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  transition: 1s;
+  color: #76b900;
+  text-align: center;
+  margin-top: 37px;
+}
+.card2 {
+  grid-area: card2;
+  box-shadow: 10px 17px 27px -4px #00000040;
+  width: 290px;
+  height: 302px;
+}
+.card3 {
+  grid-area: card3;
+  box-shadow: 10px 17px 27px -4px #00000040;
+  width: 290px;
+  height: 302px;
+}
+.card4 {
+  grid-area: card4;
+  box-shadow: 10px 17px 27px -4px #00000040;
+  width: 290px;
+  height: 302px;
+}
+.text1 {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58.09px;
+  color: #050505;
+  text-align: center;
+  grid-area: text1;
+}
+.card5 {
+  grid-area: card5;
+  box-shadow: 10px 17px 27px -4px #00000040;
+  width: 290px;
+  height: 302px;
+}
+.card6 {
+  grid-area: card6;
+  box-shadow: 10px 17px 27px -4px #00000040;
+  width: 290px;
+  height: 302px;
+}
+.card7 {
+  grid-area: card7;
+  box-shadow: 10px 17px 27px -4px #00000040;
+  width: 290px;
+  height: 302px;
+}
+.card8 {
+  grid-area: card8;
+  box-shadow: 10px 17px 27px -4px #00000040;
+  width: 290px;
+  height: 302px;
+}
+.text2 {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58.09px;
+  color: #050505;
+  text-align: center;
+  grid-area: text2;
+}
+.card9 {
+  grid-area: card9;
+  box-shadow: 10px 17px 27px -4px #00000040;
+  width: 290px;
+  height: 302px;
+}
+.card10 {
+  grid-area: card10;
+  box-shadow: 10px 17px 27px -4px #00000040;
+  width: 290px;
+  height: 302px;
+}
+.card11 {
+  grid-area: card11;
+  box-shadow: 10px 17px 27px -4px #00000040;
+  width: 290px;
+  height: 302px;
+}
+.card12 {
+  grid-area: card12;
+  box-shadow: 10px 17px 27px -4px #00000040;
+  width: 290px;
+  height: 302px;
+}
+.img1 {
+  grid-area: img1;
+  margin-top: 28px;
+}
+.text4 {
+  grid-area: text3;
+  padding-top: 28px;
+}
+.text4 p:nth-child(1) {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58.09px;
+  color: #76b900;
+  width: 436px;
+}
+.text4 p:nth-child(2) {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.78px;
+  color: #000000;
+  margin-top: 28px;
+  width: 436px;
+}
+.button1 {
+  width: 233px;
+  height: 62px;
+}
+.button1 button {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.78px;
+  color: #000000;
+  background-color: #76b900;
+  border: none;
+  padding: 20px 20px;
+  margin-top: 58px;
+  transition: 1s;
+}
+.button1 button:hover {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.78px;
+  color: #76b900;
+  background-color: #050505;
+  border: none;
+  padding: 20px 20px;
+  margin-top: 58px;
+  transition: 1s;
+}
+.footer{
+  display: flex;
+  grid-area: footer;
+  justify-content: space-between;
+  padding: 70px 0px;
+  align-items: center;
+}
